@@ -4,7 +4,7 @@ import ru.smak.graphics.Converter
 import ru.smak.graphics.Plane
 
 fun anotherFun(){
-    println("Some More actions")
+    println("Some function works!!!")
 }
 fun main(args: Array<String>) {
     val plane = Plane(
@@ -13,6 +13,7 @@ fun main(args: Array<String>) {
         1000, 1000)
     println(Converter.xScrToCrt(99, plane))
     ///Изменения для тестовой ветви
+    anotherFun()
     anotherFun()
 }
 
